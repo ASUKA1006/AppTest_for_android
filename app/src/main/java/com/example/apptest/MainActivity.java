@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button button = findViewById(R.id.button);
-        text = findViewById(R.id.textView2);
+        text = findViewById(R.id.textView);
         button.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 if (flag){
                     text.setTextColor(Color.MAGENTA);
                     text.setTypeface(Typeface.DEFAULT_BOLD,35);
-                    text.setText("はっぴーday!");
+                    text.setText("welcome to the world for programming!");
 
                     flag = false;
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     text.setTypeface(Typeface.DEFAULT_BOLD,35);
                     text.setTextColor(Color.DKGRAY);
-                    text.setText("憂鬱デー");
+                    text.setText("hello world is a misical word");
                     flag = true;
 
                 }
