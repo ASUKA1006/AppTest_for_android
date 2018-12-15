@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private TextView text;
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
                     text.setTextColor(Color.MAGENTA);
                     text.setTypeface(Typeface.DEFAULT_BOLD,35);
                     text.setText("welcome to the world for programming!\n\n\n" + "you can do lots of things with programming.If you've never coded, that's ok. Just learn and enjoy it!" );
+                    String mes = "To the next";
+                    Toast.makeText(MainActivity.this, mes, Toast.LENGTH_LONG).show();
 
                     flag = false;
 
