@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">This is my App</string>
-    <string name="text">Hello World is a masical word"</string>
+    <string name="text">Hello World is a masical word</string>
     <string name="button">BUTTON</string>
+    <string name="menu_item0">About my app</string>
+    <string name="menu_item1">top</string>
+    <string name="menu_item2">what is android</string>
+    <string name="menu_item3">for developers</string>
+    <string name="menu_item4">options</string>
+    <string name="text2">welcome to the world for programming! you can do lots of things with programming.If you have never coded, that is ok. Just learn and enjoy it!</string>
+    <string name="back_button">BACK</string>
+
 
 </resources>
